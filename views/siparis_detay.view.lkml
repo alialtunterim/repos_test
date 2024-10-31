@@ -36,8 +36,8 @@ view: siparis_detay {
     sql: ${TABLE}.Satis ;;
   }
 
-  dimension: satis_maliyeti {
-    type: number
+  measure: satis_maliyeti {
+    type: sum
     sql: ${TABLE}.Satis_Maliyeti ;;
   }
 

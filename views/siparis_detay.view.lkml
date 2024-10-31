@@ -38,6 +38,7 @@ view: siparis_detay {
 
   measure: satis_maliyeti {
     type: sum
+    value_format: "#,##0"
     sql: ${TABLE}.Satis_Maliyeti ;;
   }
 

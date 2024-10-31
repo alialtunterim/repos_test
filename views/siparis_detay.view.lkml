@@ -13,6 +13,7 @@ view: siparis_detay {
 
   measure: indirim {
     type: sum
+    value_format: "#,##0"
     sql: ${TABLE}.__ndirim ;;
   }
 

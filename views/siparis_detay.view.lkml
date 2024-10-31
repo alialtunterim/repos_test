@@ -20,25 +20,18 @@ view: siparis_detay {
   # measures for this dimension, but you can also add measures of many different aggregates.
   # Click on the type parameter to see all the options in the Quick Help panel on the right.
 
-  measure: total___ndirim {
-    type: sum
-    sql: ${__ndirim} ;;  }
-  measure: average___ndirim {
-    type: average
-    sql: ${__ndirim} ;;  }
-
   dimension: gp {
     type: number
     sql: ${TABLE}.GP ;;
   }
 
-  dimension: miktar {
-    type: number
+  measure: miktar {
+    type: sum
     sql: ${TABLE}.Miktar ;;
   }
 
-  dimension: satis {
-    type: number
+  measure: satis {
+    type: sum
     sql: ${TABLE}.Satis ;;
   }
 

@@ -32,6 +32,7 @@ view: siparis_detay {
 
   measure: satis {
     type: sum
+    value_format: "#,##0"
     sql: ${TABLE}.Satis ;;
   }
 

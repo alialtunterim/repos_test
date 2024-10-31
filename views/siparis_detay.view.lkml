@@ -17,8 +17,8 @@ view: siparis_detay {
     sql: ${TABLE}.__ndirim ;;
   }
 
-  dimension: gp {
-    type: number
+  measure: gp {
+    type: sum
     sql: ${TABLE}.GP ;;
   }
 

@@ -1,6 +1,6 @@
 ---
 - dashboard: repos_test
-  title: repos_test
+  title: repos_testaaa
   layout: newspaper
   preferred_viewer: dashboards-next
   description: ''

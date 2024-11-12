@@ -1,6 +1,6 @@
 ---
 - dashboard: 01_sales_summary
-  title: 01- Sales Summary
+  title: 01- Sales Summary09999
   layout: newspaper
   preferred_viewer: dashboards-next
   description: ''

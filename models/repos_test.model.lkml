@@ -2,7 +2,7 @@
 connection: "komtas-workshop"
 
 include: "/views/*.view.lkml"
-include: "/dashboards/sample.dashboard.lookml"
+
 
 include: "/dashboards/test.dashboard.lookml"
 
